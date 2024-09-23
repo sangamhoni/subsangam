@@ -11,24 +11,28 @@
 
 <div align="left">      <!-- to make the code-snippet left-aligned -->
 
+```python
+class Sangam:
+    def __init__(self):
+        from datetime import datetime
+        self.full_name = "Sangam Subedi"
+        self.preferred_name = "Sam"
+        self.pronouns = ["he", "him", "his"]
+        self.date_of_birth = 2004
+        self.age = datetime.now().year - self.date_of_birth
+        self.code = ["Python", "C", "HTML", "CSS", "JS"]
+        self.ask_me_about = ["graphics design", "dig. marketing", "music", "coffee"]
+        self.passions = ["graphics design"]
+        self.interests_and_hobbies = ["touch typing", "chess", "ping pong"]
+        self.knowledge = {
+            "OOP": True,
+            "data_structures_and_algorithms": True
+        }
+        self.frameworks_and_modules = ["Tkinter", "Turtle", "Pandas", "Curses"]
+
+sangam = Sangam()
 ```
-0  const Sangam = {
-1      fullName: "Sangam Subedi",
-2      pronouns: "he" || "him",
-3      dateOfBirth: 2004,
-4      age: new Date().getFullYear() - this.dateOfBirth,
-5      code: ["Javascript", "HTML", "CSS"],
-6      askMeAbout: ["web dev", "graphics", "dig. marketing", "music", "coffee"],
-7      technologies: {
-8          frontEnd: {
-9             css: ["tailwind", "react"]
-10         },
-11         backEnd: {
-12             js: ["node"]
-13         }
-14     }
-15 };
-```
+
 &nbsp;  
 
 <div align="center">      <!-- to continue making everything centered -->
@@ -38,20 +42,14 @@
 ### `<tech_stack />`
 <p>
     <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py" width=50" height=50" alt="Python" /></a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=js" width=50" height=50" alt="JavaScript"/></a>
     <a href="https://www.w3schools.com/c/c_intro.php" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=c" width=50" height=50" alt="C"/></a>
-    <a href="https://react.dev/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react" width=50" height=50" alt="React"/></a>
-    <a href="https://nodejs.org/en" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nodejs" width=50" height=50" alt="Node JS"/></a>
-    <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=flask" width=50" height=50" alt="Flask"/></a>
     <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html" width=50" height=50" alt="HTML5"/></a>
     <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css" width=50" height=50" alt="CSS3"/></a>
-    <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ai" width=50" height=50" alt="Illustrator"/></a>
-    <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ps" width=50" height=50" alt="Photoshop"/></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=js" width=50" height=50" alt="JavaScript"/></a>
     <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git&theme=light" width=50" height=50" alt="Git" /></a>
-    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width=50" height=50" alt="My SQL" /></a>
-    <a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java&theme=dark" width=50" height=50" alt="Java" /></a>
-    <a href="https://wordpress.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=wordpress&theme=dark" width=50" height=50" alt="WordPress" /></a>
     <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=figma&theme=dark" width=50" height=50" alt="Figma" /></a>    
+    <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ps" width=50" height=50" alt="Photoshop"/></a>
+    <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ai" width=50" height=50" alt="Illustrator"/></a>
 </p>
 &nbsp;  
 
@@ -72,7 +70,7 @@
 <!-- language card -->
 <img align="center" alt="Languages" src="https://github-readme-stats-sangamhoni.vercel.app/api/top-langs/?username=sangamhoni&layout=compact&theme=tokyonight&hide_border=true&custom_title=Languages%20I've%20Used" />  
 <!-- stats card -->
-<img src="https://github-readme-stats-sangamhoni.vercel.app/api?username=sangamhoni&show_icons=true&theme=tokyonight&hide_border=true&icon_color=38bdae&include_all_commits=true&custom_title=My%20Github%20Stats">    
+<!-- <img src="https://github-readme-stats-sangamhoni.vercel.app/api?username=sangamhoni&show_icons=true&theme=tokyonight&hide_border=true&icon_color=38bdae&include_all_commits=true&custom_title=My%20Github%20Stats">     -->
 
 &nbsp;  
 
