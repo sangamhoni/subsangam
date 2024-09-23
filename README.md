@@ -21,16 +21,14 @@ class Sangam:
         self.date_of_birth = 2004
         self.age = datetime.now().year - self.date_of_birth
         self.code = ["Python", "C", "HTML", "CSS", "JS"]
-        self.ask_me_about = ["graphics design", "dig. marketing", "music", "coffee"]
-        self.passions = ["graphics design"]
+        self.ask_me_about = ["graphic design", "dig. marketing", "music", "coffee"]
+        self.passions = ["graphic design"]
         self.interests_and_hobbies = ["touch typing", "chess", "ping pong"]
         self.knowledge = {
             "OOP": True,
             "data_structures_and_algorithms": True
         }
         self.frameworks_and_modules = ["Tkinter", "Turtle", "Pandas", "Curses"]
-
-sangam = Sangam()
 ```
 
 &nbsp;  
